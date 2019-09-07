@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    width: 100%;
+}
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*.container::after{
+    content: "";
+    clear: both;
+    display: table;
+}*/
+.wrapper-main{
+    background-image: url('./images/nature.jpeg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.clear{
+    clear: both;
+}
+.container-header{
+    background-color: white;
+    min-height: 100px;
+    position: relative;
+    margin-left: 120px;
+}
+.leftmenu{
+    width: 25%;
+    float: left;
+}
+.leftmenu h2{
+    /* margin-left and margin-right ... auto or text-align: center...*/
+   /* margin-left: auto;
+    margin-right: auto; */
+    font-size: 35px;
+    float: left;
+    padding-left: 30px;
+    padding-top: 15px;
+    color: #27477a;
+}
+.rightmenu{
+    width: 75%;
+    float: right;
+}
+.rightmenu ul{
+    list-style-type: none;
+    float: right;
+    padding: 5px;
+    /*vertical-align: middle; */
+    /*margin-left: auto;
+    margin-right: auto; */
+
+}
+.rightmenu ul li{
+    float: left;
+    padding: 20px;
+    display: block;
+    
+}
+.rightmenu #l1 a{
+    color: #27477a;
+}
+.rightmenu ul li a{
+    text-decoration: none;
+    color: skyblue;
+}
+
+.cart{
+    background-image: url('./images/Rounded-Rectangle-2.png');
+    width: 160px;
+    height: 35px;
+    position: absolute;
+    top: 100px;
+    right: 0; 
+}
+.cart img{
+    padding-top: 5px;
+    padding-left: 15px;
+    float: left;
+}
+.cart p{
+    margin: 0;
+    color: white;
+    font-size: 17px;
+    padding-top: 7px;
+    padding-left: 60px;
+}
+/*---------------------------------------------------------------*/
+.main{
+    /*background-color: yellow; */
+
+    /*background-image: url('baby.jpg');*/
+    background-image: url('/images/nature.jpeg');
+    clear: both;
+   
+}
+.uppermain{
+  /*  background-color: yellow; */
+}
+.uppermain p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.uppermain #p1{
+    padding-top: 40px;
+}
+.uppermain #p2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.uppermain #p3{
+    padding-bottom: 40px;
+}
+.lowermain{
+    width: 100%;
+    height: auto;
+}
+.leftlowermain{
+    width: 30%;
+    float: left;
+    min-height: 445px;
+    min-width: 273px;
+    /*float: left;  */
+    background-image: url('./images/rr1.png');
+    background-repeat: no-repeat;
+    margin-top: 25px;
+}
+.leftlowermain-p{
+
+  height: auto;  
+  width: 273px;
+   color: blue;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}
+
+.leftlowermain-p p{
+    padding: 20px;
+    line-height: 1.3;
+}
+hr{
+    width: 130px;
+    color: rgb(0, 238, 255);
+    margin-top: 10px;
+    margin-left: 70px;
+}
+.leftlowermain h3{
+    margin-left: 80px;;
+    color: aqua;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.leftlowermain img{
+    margin-left: 50px;
+}
+.rightlowermain{
+    width: 70%;
+    height: auto;
+   /* background-color: green; */
+    float: right;
+}
+.id1{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+.id2{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+.rightlowermain .id1 .box{
+    float: left;
+    padding: 20px;
+}
+.rightlowermain .id2 .box{
+    float: left;
+    padding: 20px;
+}
+.topbox{
+    background-image: url('./images/rec-blue.png');
+    min-width: 180px;
+    min-height: 50px;
+}
+.topbox p{
+    margin: 0;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
+.topbox #p1{
+    padding-top: 8px;
+}
+.bottombox{
+    background-image: url('./images/rec.png');
+    min-width: 180px;
+    min-height: 231px;
+}
+.bottombox img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottombox #img1{
+    padding-top: 10px;
+}
+.bottombox #img2{
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.bottombox #img3{
+    padding-bottom: 10px;
+}
+
+.footer{
+    width: 1024px;
+    min-height: 140px;
+   
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    
+}
+.f1, .f2, .f3, .f4, .f5{
+    float: left;
+    padding-left : 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    color: gray;
+}
+.f1, .f2, .f3, .f4, .f5 p{
+    line-height: 1.4;
+}
+.wrapper-footer{
+    background-color: #e1e2e3;
+}
+.f4 a{
+    color: gray;
+    text-decoration: none;
+}
+.f5 a{
+    text-decoration: none;
+    color: gray;
+}

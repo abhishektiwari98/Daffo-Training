@@ -1,0 +1,363 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+}
+/*----------------- HEADER --------------*/
+
+.header_links{
+    padding-left: 250px;
+}
+.header_links li{
+    padding: 0px 20px;
+}
+
+/*------------------ MAIN 1----------------*/
+.main1-img{
+    background-image: url('banner-bg.jpg');
+    background-repeat: no-repeat;
+    min-height: 678px;
+    background-position: right;
+  /*  background-size: 100% 100%; */
+  position: relative;
+}
+.main1-text{
+   /* position: absolute;*/
+    top: 100px;
+    left: 60px;
+    height: auto;
+    width: 550px;
+}
+.main1-text h1{
+    color: rgb(52, 180, 235);
+    margin-top: -20px;
+    margin-bottom: -5px;
+    /* font-size: 70px; */
+}
+/*.main1-text h1 span{
+    font-size: 80px;
+}*/
+.main1-text p{
+    padding: 0px;
+}
+.main1-text button{
+    border: 1px solid white;
+    color: transparent;
+    padding:  15px 45px;
+    font-weight: bold;
+    color: white;
+    font-weight: bold;
+}
+
+/*------------------ MAIN 2----------------*/
+.main2{
+    padding: 50px 0px;
+}
+.main2-img{
+    position: relative;
+}
+.main2-text h2{
+    color: rgb(52, 180, 235);
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing : 1.5px;
+    padding-left: 30px;
+    padding-top: 40px;
+
+}
+.main2-text p{
+    text-align: center;
+    padding: 15px;
+    line-height: 1.5;
+}
+.main2 .videoPlayIcon{
+    position: absolute; 
+    z-index: 1; 
+    left: 230px; 
+    top: 130px;
+}
+
+
+
+/*----------------- MAIN 3------------------*/
+.main3-form{
+    width: 400px;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+.main3-form h2{
+    color: rgb(52, 180, 235);
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding: 30px;
+}
+.main3-form input[type="text"]
+{
+    border: 0;
+    border-bottom: 1px solid white;
+    outline: 0;
+    padding: 10px 0px;
+    width: 100%;
+    background-color: black;
+}
+.main3 input{
+    margin: 20px 0px;
+}
+.main3-form button{
+    width: 100%;
+    margin: 30px 0px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+
+/*----------------- MAIN 4------------------*/
+.main4-text h2{
+    color: rgb(52, 180, 235);
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding-left: 40px;
+    padding-top: 70px;
+}
+.main4-text p{
+    padding: 25px 35px;
+    text-align: center;
+}
+/*------------- Slider ---------------- */
+.my-slider{
+    display: none;
+}
+
+
+/*---------------- Footer ------------------*/
+.footer-row1{
+    border-top: 3px solid rgb(52, 180, 235);
+    border-width: 100%;
+}
+.footer-row1 h2{
+    color: rgb(52, 180, 235);
+    padding: 50px;
+    font-weight: bold;
+    letter-spacing : 1.5px;
+    font-size: 45px;
+}
+
+.footer-row2 p{
+    color: white;
+    padding: 30px 0px;
+}
+
+/*########################################## MEDIA QUERIES ################################ */
+/*-------- Header ----------*/
+@media screen and (max-width: 992px){
+    .header_links{
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header_links{
+        padding: 0px;
+    }
+    .header_links li{
+        padding: 0px 10px;
+    }
+}
+
+
+/*--------- Main1 ------------*/
+@media screen and (max-width: 992px){
+    .main1-img{
+        background-size: 90% auto;
+        min-height: 550px;
+    }
+    .main1-text{
+        top: 55px;
+        left: 35px;
+        width: 450px;
+    }
+    .main1-text h1{
+        margin-top: -20px;
+        margin-bottom: -5px;
+        font-size: 60px; 
+    }
+    .main1-text h1 span{
+        font-size: 65px;
+    }
+    .main1-text h2{
+        font-size: 30px;
+    }
+    .main1-text h2 span{
+        font-size: 35px;
+    }
+    .main1-text button{
+        padding:  8px 25px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main1-img{
+        background-size: 100% auto;
+        min-height: 450px;
+    }
+    .main1-text{
+        /*padding-top: 50px; */
+       /* padding-left: 20px; */
+       left: 0px;
+       /* width: 380px; */
+       /*extra*/
+       max-width: 100%;
+    }
+    .main1-text h1{
+        margin-top: -20px;
+        margin-bottom: -5px;
+        font-size: 40px; 
+    }
+    .main1-text h1 span{
+        font-size: 45px;
+    }
+    .main1-text h2{
+        font-size: 20px;
+    }
+    .main1-text h2 span{
+        font-size: 25px;
+    }
+    .main1-text button{
+        padding:  5px 15px;
+    }
+}
+
+
+/*--------- Main2 ------------*/
+@media screen and (max-width: 992px){
+    .main2{
+        padding: 30px 0px;
+    }
+    .main2-text h2{
+        font-size: 35px;
+        padding-left: 25px;
+        padding-top: 30px;
+    
+    }
+    .main2-text p{
+        padding: 15px;
+    }
+    .main2 .videoPlayIcon{
+        left: 170px; 
+        top: 180px;
+    }
+    .main2 .bgimg{
+        width: 400px;
+        height: 300px;
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main2 .bgimg{
+        width: 480px;
+        height: 330px;
+        margin-top: 20px;
+    }
+    .main2 .videoPlayIcon{
+        left: 200px;
+        top: 130px;
+    }
+    .main2-text h2{
+        font-size: 35px;
+        padding-left: 20px;
+        padding-top: 20px;
+    
+    }
+    .main2-text p{
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+/*--------- Main3 -------------*/
+@media screen and (max-width: 992px){
+    .main3-form{
+        width: 300px;
+        margin: 0px auto;
+        margin-top: 40px;
+    }
+    .main3-form h2{
+        font-size: 35px;
+        padding: 25px;
+    }
+    .main3 input{
+        margin: 20px 0px;
+    }
+    .main3-form button{
+        width: 100%;
+        margin: 30px 0px;
+        padding: 10px;
+    }
+    .main3-form{
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main3-form{
+        padding-bottom: 80px;
+}
+
+
+/*--------- Main4 -------------*/
+@media screen and (max-width: 992px){
+    .main4-text h2{
+        font-size: 35px;
+        padding-left: 30px;
+        padding-top: 50px;
+    }
+    .main4-text p{
+        padding: 15px 25px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .temp{
+        display: none;
+    }
+    .my-slider{
+        display: block;
+        margin-bottom: 50px;
+        background-color: black;
+    }
+}
+
+
+
+/*--------- Footer -------------*/
+@media screen and (max-width: 992px){
+    .footer-row1 h2{
+        padding: 40px;
+        font-size: 35px;
+    }
+    
+    .footer-row2 p{
+        padding: 25px 0px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer-row1 h2{
+        padding: 30px;
+        font-size: 25px;
+    }
+    
+    .footer-row2 p{
+        padding: 20px 0px;
+    }
+}
